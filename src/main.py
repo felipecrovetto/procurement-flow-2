@@ -1,5 +1,7 @@
 import os
 import sys
+from datetime import datetime
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from flask import Flask, send_from_directory, jsonify
@@ -153,9 +155,10 @@ def serve(path):
         else:
             return "index.html not found", 404
 
+# 🔥 Esta es la sección modificada para Heroku:
 if __name__ == '__main__':
     try:
         logger.info("Starting Procurement Management System...")
-        app.run(debug=True)
+        app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)), debug=False)
     except Exception as e:
         logger.error(f"Startup failed: {str(e)}")

@@ -162,3 +162,9 @@
 2025-06-11 10:30:23,537 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:30:23] "GET /api/suppliers/ HTTP/1.1" 200 -
 2025-06-11 10:30:23,548 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:30:23] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
 2025-06-11 10:30:25,964 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:30:25] "GET /api/processes/ HTTP/1.1" 200 -
+2025-06-11 10:41:37,170 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:41:37] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-06-11 10:41:37,481 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:41:37] "GET /api/alerts/?dismissed=false HTTP/1.1" 200 -
+2025-06-11 10:41:37,731 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2025 10:41:37] "GET /api/alerts/?dismissed=false HTTP/1.1" 200 -
+2025-06-11 10:53:57,699 - werkzeug - INFO -  * Detected change in 'C:\\Users\\felip\\OneDrive\\Desktop\\PycharmProjects\\procurement-web-2.0\\sistema_compras_licitaciones_v2\\procurement_app\\src\\main.py', reloading
+2025-06-11 10:53:57,715 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-11 10:53:59,341 - werkzeug - INFO -  * Restarting with stat

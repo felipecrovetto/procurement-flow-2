@@ -1,0 +1,3 @@
+2025-06-11 10:54:03,190 - procurement_system - INFO - Database tables created successfully
+2025-06-11 10:54:03,192 - procurement_system - WARNING - System health issues detected: {'timestamp': '2025-06-11T10:54:03.191026', 'checks': {'disk_space': {'status': 'warning', 'message': "Error verificando espacio en disco: module 'os' has no attribute 'statvfs'"}, 'database': {'status': 'error', 'message': "Error verificando base de datos: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')"}, 'directories': {'status': 'ok', 'message': 'Directorios de upload verificados'}}, 'overall_status': 'issues_detected'}
+2025-06-11 10:54:03,195 - procurement_system - INFO - Starting Procurement Management System...
